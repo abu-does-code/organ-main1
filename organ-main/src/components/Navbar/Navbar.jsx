@@ -35,6 +35,7 @@ const NavUrl = ({ url, icon, description }) => {
         className={({ isActive }) => (isActive ? styles.active : undefined)}
         onClick={() => checkWindowSize()}
       >
+        
         {icon}
         <span className={styles.description}>{description}</span>
       </NavLink>

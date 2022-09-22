@@ -21,6 +21,7 @@ const RightNavbar = () => {
 
   return (
     <div className={styles.container}>
+      
       {/* BURGER */}
       <div
         className={styles.burger_container}
@@ -28,11 +29,14 @@ const RightNavbar = () => {
           setNav(!nav);
         }}
       >
+        
         <MdOutlineMenu />
+        <h3 className="top">8lives.</h3>
       </div>
 
       {/* ACTIONS */}
       <div className={styles.actions}>
+        
         <Search />
         <Notifications />
         <Support />

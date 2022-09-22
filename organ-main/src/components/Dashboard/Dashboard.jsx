@@ -47,7 +47,6 @@ const Dashboard = () => {
           integrity, and transparency and also eliminating the need for third
           third-party moderators moderators.
         </p>
-        https://github.com/AvinashMahanthi/Organ-Donation.git
       </div>
       <h2>Articles</h2>
       <div className={styles.charts}>
